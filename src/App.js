@@ -5,13 +5,14 @@ import Home from "./Home";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
 import { useEffect } from "react";
-import { auth } from "./Firebase";
+import { auth } from "./firebase";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
     const [{ user }, dispatch] = useStateValue();
     useEffect(() => {
         auth.onAuthStateChanged((authUser) => {
+            console.log("authUser:", authUser);
             if (authUser) {
                 dispatch({
                     type: "SET_USER",

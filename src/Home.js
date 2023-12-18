@@ -7,124 +7,125 @@ function Home() {
             <div className="home-container">
                 <img
                     className="home__img"
-                    src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_LPHeader_Gamers_en_US.png"
+                    src="https://m.media-amazon.com/images/I/71Q+c4-cnjL._SX3000_.jpg"
                     alt="home__img"
                 />
                 <div className="home__row">
                     <Product
-                        id="1232567786"
+                        id="45678901"
                         title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
+                            "Maraa Wall Basket Decor set of 3. Add Luxury to any Space - Modern Boho, Farmhouse, and Rustic Style Woven Wall Décor. Transform your Bedroom, Kitchen, Living Room or Home Office with these Wicker Wall Art"
                         }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/S/al-na-9d5791cf-3faf/af665b83-8d77-4c4e-bc8f-a252bf8b4758._CR0,0,1200,628_SX460_QL70_.jpg"
-                        price={1}
+                        image="https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/b8cf0d9d-b0a6-4979-a638-d813c1352b67._CR0,358,4999,2616_SX460_QL70_.jpg"
+                        price={246.89}
                         rating={5}
                     />
+
                     <Product
-                        id="1232567786"
+                        id="23456789"
                         title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
+                            "Arlo - Wireless Home Security | Night vision, Indoor/Outdoor, HD Video, Wall Mount | Includes Cloud Storage & Required Base Station | 1-Camera System (VMS3130)"
                         }
-                        image="https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/ce99b4f3-5127-4340-9382-0c2c509df211._CR0,0,1200,628_SX460_QL70_.png"
-                        price={2}
+                        image="https://m.media-amazon.com/images/I/71yMqy+YI9L._AC_UL320_.jpg"
+                        price={187.28}
                         rating={5}
                     />
                 </div>
                 <div className="home__row">
                     <Product
-                        id="1232567786"
+                        id="98765432"
                         title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
+                            " Xmas Trees Stocking Photography Background Indoors Winter Holiday Party Decoration New Year Photo Backdrops Studio Booth Props"
                         }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61is2ZwnHEL._AC_UF894,1000_QL80_FMwebp_.jpg"
-                        price={3}
+                        image="https://m.media-amazon.com/images/I/6176VwwXYFL._AC_UL320_.jpg"
+                        price={178.9}
                         rating={5}
                     />
                     <Product
-                        id="1232567786"
+                        id="12345678"
                         title={
-                            "Razer Ornata V3 X Gaming Keyboard: Low-Profile Keys - Silent Membrane Switches - Spill Resistant - Chroma RGB Lighting - Ergonomic Wrist Rest - Classic Blac"
+                            "Toys from Learning Resources and Educational Insights"
                         }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61xNbcWbvDL._AC_SL1500_.jpg"
-                        price={4}
-                        rating={5}
+                        image="https://m.media-amazon.com/images/I/31xGEnkAmoL._AC_UF226,226_FMjpg_.jpg"
+                        price={89.67}
+                        rating={4}
                     />
                     <Product
-                        id="1232567786"
+                        id="87654321"
                         title={
                             "Logitech G613 LIGHTSPEED Wireless Mechanical Gaming Keyboard, Multihost 2.4 GHz + Blutooth Connectivity - Black"
                         }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71pqfvJKW5L._AC_SX679_.jpg"
-                        price={5}
+                        image="https://m.media-amazon.com/images/I/51jay95Zw5L._AC_UL320_.jpg"
+                        price={867.89}
                         rating={5}
                     />
                     <Product
-                        id="1232567786"
+                        id="34567890"
                         title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
+                            "Aduro 40W 6-Port USB Desktop Charging Station Hub Wall Charger for iPhone iPad Tablets Smartphones with Smart Flow (Black)"
                         }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/811GmQE-xHL._AC_SX466_.jpg"
-                        price={6}
+                        image="https://m.media-amazon.com/images/I/61QzBR02g3L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                        price={145.33}
+                        rating={4}
+                    />
+                </div>
+                <div className="home__row">
+                    <Product
+                        id="56789012"
+                        title={
+                            "AIWA ARC Noise Cancelling Over Ear Wireless Headphones with 45 Hour Battery Life, Fast Charging, Multipoint"
+                        }
+                        image="https://m.media-amazon.com/images/I/71vxxJqvJxL._AC_UL320_.jpg"
+                        price={77.99}
+                        rating={3}
+                    />
+                    <Product
+                        id="78901234"
+                        title={
+                            "AqtivAqua Swimming Goggles, DX Wide View Swim Goggles for Adult Men Women, Anti Fog No Leaking"
+                        }
+                        image="https://m.media-amazon.com/images/I/91SF7Me+0DL._AC_UL320_.jpg"
+                        price={43.43}
+                        rating={5}
+                    />
+                    <Product
+                        id="89012345"
+                        title={
+                            "160 Pack Silver Plastic Cutlery Disposable Silverware - 80 Forks, 40 Knives, 40 Spoons - For Catering, Parties, Dinners, Weddings, and Everyday Use"
+                        }
+                        image="https://m.media-amazon.com/images/I/71sOTFhHQDL._AC_UL320_.jpg"
+                        price={99.89}
+                        rating={4}
+                    />
+                </div>
+                <div className="home__row">
+                    <Product
+                        id="67890123"
+                        title={
+                            "Luminarc Glass 10-Piece Set Stackable Bowl Set,Clear"
+                        }
+                        image="https://m.media-amazon.com/images/I/717Hk5-mSqL._AC_UL320_.jpg"
+                        price={68.6}
+                        rating={5}
+                    />
+                    <Product
+                        id="43210987"
+                        title={
+                            "Hume Supernatural Invisible Whole Body Deodorant Balm - Full Body Protection - Aluminum Free, No Baking Soda - Anti-Chafing Odor Control - Clinically Tested on Sensitive Skin (Desert Bloom, 1-Pack)"
+                        }
+                        image="https://m.media-amazon.com/images/I/7165D71OKYL._AC_UL320_.jpg"
+                        price={23.87}
                         rating={5}
                     />
                 </div>
                 <div className="home__row">
                     <Product
-                        id="1232567786"
+                        id="21098765"
                         title={
-                            "Logitech G733 Lightspeed Wireless Gaming Headset with Suspension Headband, Lightsync RGB, Blue VO!CE mic technology and PRO-G audio drivers - Black"
+                            "SAMSUNG 65-Inch Class QLED Q80A Series - 4K UHD Direct Full Array Quantum HDR 12x Smart TV with Alexa Built-in and 6 Speaker Object Tracking Sound - 60W, 2.2.2CH"
                         }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71xNjrzG69L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
-                        price={7}
-                        rating={5}
-                    />
-                    <Product
-                        id="1232567786"
-                        title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
-                        }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71LXi404OOL._AC_SL1500_.jpg"
-                        price={8}
-                        rating={5}
-                    />
-                    <Product
-                        id="1232567786"
-                        title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
-                        }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71kZghCcQEL._AC_SX466_.jpg"
-                        price={9}
-                        rating={5}
-                    />
-                </div>
-                <div className="home__row">
-                    <Product
-                        id="1232567786"
-                        title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
-                        }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61kI0PIuXVL._AC_UF894,1000_QL80_FMwebp_.jpg"
-                        price={10}
-                        rating={5}
-                    />
-                    <Product
-                        id="1232567786"
-                        title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
-                        }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61nKxSAAVFL._AC_SX425_.jpg"
-                        price={11}
-                        rating={5}
-                    />
-                </div>
-                <div className="home__row">
-                    <Product
-                        id="1232567786"
-                        title={
-                            "Razer Huntsman V2 TKL Tenkeyless Gaming Keyboard: Fastest Linear Optical Switches"
-                        }
-                        image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61hOUZhSfgL._AC_SY879_.jpg"
-                        price={12}
+                        image="https://images-na.ssl-images-amazon.com/images/I/41WjcXhmjjL._AC_SX184_.jpg"
+                        price={148.89}
                         rating={5}
                     />
                 </div>
