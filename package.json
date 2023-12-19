@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.0",
@@ -20,9 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-  "@babel/plugin-proposal-private-property-in-object": "*"
-  
-},
+    "@babel/plugin-proposal-private-property-in-object": "*"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
