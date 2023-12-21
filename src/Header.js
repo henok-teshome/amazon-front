@@ -28,10 +28,10 @@ function Header() {
                 <SearchIcon className="header__searchIcon" />
             </div>
             <div className="header__nav">
-                <Link to={!user && "/login"} className="header__clearLink">
+                <Link to={!user && "/login"} className="header__clearlink">
                     <div
                         onClick={handleAuthentication}
-                        className="heder__option"
+                        className="header__option"
                     >
                         <span className="header__optionLineOn">
                             Hello,{!user ? "Guest" : user.email}
@@ -41,19 +41,18 @@ function Header() {
                         </span>
                     </div>
                 </Link>
-
-                <Link to="/orders" className="header__clearLink">
-                    <div className="heder__option">
-                        <span className="header__optionLineOn">Returns</span>
+                <Link to="/orders" className="header__clearlink">
+                    <div className="header__option">
+                        <span className="header__optionLineOne">Returns</span>
                         <span className="header__optionLineTwo">& Orders</span>
                     </div>
                 </Link>
 
-                <div className="heder__option">
+                <div className="header__option">
                     <span className="header__optionLineOn">Your</span>
                     <span className="header__optionLineTwo">Prime</span>
                 </div>
-                <Link to="/checkout">
+                <Link to="/checkout" className="header__clearlink">
                     <div className="header__optionBasket">
                         <ShoppingBasketIcon />
                         <span className="header__optionLineTwo">
