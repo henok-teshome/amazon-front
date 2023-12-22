@@ -1,6 +1,6 @@
 {
   "name": "amazon-front",
-  "version": "0.1.0",
+   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -15,9 +15,9 @@
     "axios": "^1.6.2",
     "firebase": "^10.7.1",
     "moment": "^2.29.4",
-    "react": "^18.2.0",
-    "react-currency-format": "^1.1.0",
-    "react-dom": "^18.2.0",
+     "react": "18.2.0",
+     "react-currency-format": "1.1.0",
+      "react-dom": "18.2.0",
     "react-router-dom": "^6.21.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -25,6 +25,9 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "*"
   },
+  "resolutions": {
+  "react": "18.2.0"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
